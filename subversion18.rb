@@ -37,7 +37,7 @@ class Subversion18 < Formula
   # Other optional dependencies
   depends_on "gnupg" => :optional
   depends_on :java => :optional
-  depends_on "python" => :optional
+  # depends_on "python" => :optional
 
   # Bindings require swig
   depends_on "swig" if build.with?("perl") || build.with?("python") || build.with?("ruby")
